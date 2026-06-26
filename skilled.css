@@ -9,17 +9,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-.open-sans-font{
+.open-sans-font {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
 
-.navbar{
+.navbar {
     background-color: #FFF8F3;
     padding-top: 50px;
 }
 
-nav{
+nav {
     width: 71%;
     max-width: 1140px;
     margin: 0px auto;
@@ -28,36 +28,93 @@ nav{
     align-items: center;
 }
 
-.logo{
+.logo {
     font-size: 45px;
     color: navy;
     font-weight: 900;
 }
 
-.gradient-color{
+.gradient-color {
     background: linear-gradient(to bottom, #f97316, #ec4899);
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
     gap: 51px;
     align-items: center;
 }
 
-nav .menu a{
+nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
 }
 
-.btn1{
-    background-color:navy ;
+.btn1 {
+    background-color: navy;
     color: white;
     border: none;
     padding: 18px 35px;
     border-radius: 40px;
     font-size: 20px;
     font-weight: bold;
-    
+    cursor: pointer;
+}
+
+footer {
+    background-color: navy;
+}
+
+.foot {
+
+    padding: 50px 0px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlogo {
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.btn2 {
+    background: linear-gradient(to bottom, rgb(208, 56, 208), #ec4899);
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(236, 72, 153, 0.3);
+}
+
+.cards {
+    padding: 20px 0;
+}
+
+.firstcard {
+    background: linear-gradient(to bottom, #f97316, #ec4899);
+    color: white;
+}
+
+
+.icons i {
+    background: linear-gradient(to bottom, #f97316, #ec4899);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
